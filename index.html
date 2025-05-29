@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M.Tech Electronics Company Ltd</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>M.Tech Electronics Company Ltd</h1>
+        <div class="language-switch">
+            <button onclick="switchLanguage('en')">🇬🇧 English</button>
+            <button onclick="switchLanguage('sw')">🇹🇿 Kiswahili</button>
+        </div>
+    </header>
+
+    <section class="products">
+        <h2>Products</h2>
+        <div class="product">
+            <img src="assets/images/sample-product.jpg" alt="Product Image" />
+            <h3>Product Name</h3>
+            <p>Description of the product.</p>
+            <p><strong>Price:</strong> TSh 230,000</p>
+            <button class="order-button">Order Now</button>
+            <a href="https://wa.me/255740179000" class="whatsapp-button">WhatsApp</a>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <p>"Great service and products!" - Asha M.</p>
+        <p>"Fast delivery and professional support." - Joseph L.</p>
+    </section>
+
+    <section class="booking">
+        <h2>Book a Service</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <select>
+                <option>Product Booking</option>
+                <option>Service Booking</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="showcase">
+        <h2>Our Projects</h2>
+        <p>We have served clients in Dar es Salaam, Arusha, and Dodoma.</p>
+    </section>
+
+    <section class="offer">
+        <h2>Special Offer</h2>
+        <p>Free Software & Windows Installation on every laptop purchase!</p>
+    </section>
+
+    <footer>
+        <p>Share: 
+            <a href="#">WhatsApp</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Telegram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script>
+        function switchLanguage(lang) {
+            alert('Language switch to: ' + lang);
+        }
+    </script>
+</body>
+</html>
