@@ -1,0 +1,27 @@
+<div class="products">
+  <div class="product">
+    <img src="images/product1.jpg" alt="Product 1">
+    <h3>Product 1</h3>
+    <p>Price: TSh 130000</p>
+    <a class="order" href="https://wa.me/255740179000?text=Naomba kuagiza Product 1">Order via WhatsApp</a>
+  </div>
+  <div class="product">
+    <img src="images/product2.jpg" alt="Product 2">
+    <h3>Product 2</h3>
+    <p>Price: TSh 130000</p>
+    <a class="order" href="https://wa.me/255740179000?text=Naomba kuagiza Product 2">Order via WhatsApp</a>
+  </div>
+  <div class="product">
+    <img src="images/product3.jpg" alt="Product 3">
+    <h3>Product 3</h3>
+    <p>Price: TSh 130000</p>
+    <a class="order" href="https://wa.me/255740179000?text=Naomba kuagiza Product 3">Order via WhatsApp</a>
+  </div>
+  <!-- ... Add all products up to 50 following the same pattern ... -->
+  <div class="product">
+    <img src="images/product50.jpg" alt="Product 50">
+    <h3>Product 50</h3>
+    <p>Price: TSh 130000</p>
+    <a class="order" href="https://wa.me/255740179000?text=Naomba kuagiza Product 50">Order via WhatsApp</a>
+  </div>
+</div>
