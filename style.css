@@ -1,0 +1,44 @@
+/* Updated style.css for M.Tech Electronics */
+
+body { font-family: Arial, sans-serif; background-color: #f7f7f7; margin: 0; padding: 0; color: #333; }
+
+header { background-color: #007bff; color: white; padding: 20px; text-align: center; }
+
+nav { display: flex; justify-content: center; gap: 10px; margin: 10px 0; }
+
+nav a { text-decoration: none; color: #007bff; font-weight: bold; }
+
+.container { max-width: 1000px; margin: auto; padding: 20px; }
+
+.product { background-color: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; margin-bottom: 20px; display: grid; grid-template-columns: 1fr 2fr; gap: 15px; }
+
+.product img { width: 100%; border-radius: 8px; }
+
+.product-info { display: flex; flex-direction: column; justify-content: space-between; }
+
+button.order { background-color: #28a745; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; margin-top: 10px; }
+
+button.order:hover { background-color: #218838; }
+
+.section { margin-top: 40px; }
+
+.section h2 { border-bottom: 2px solid #007bff; padding-bottom: 5px; }
+
+footer { background-color: #343a40; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+
+.review, .showcase { background-color: white; padding: 15px; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+
+.language-switch { text-align: right; margin-top: 10px; }
+
+.language-switch a { margin-left: 10px; font-size: 14px; color: #007bff; text-decoration: none; }
+
+.language-switch a:hover { text-decoration: underline; }
+
+.booking-form { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-top: 20px; }
+
+.booking-form input, .booking-form textarea, .booking-form button { width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px; border: 1px solid #ccc; }
+
+.booking-form button { background-color: #007bff; color: white; border: none; cursor: pointer; }
+
+.booking-form button:hover { background-color: #0056b3; }
+
