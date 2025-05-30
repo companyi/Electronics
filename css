@@ -1,0 +1,144 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.language-switch a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.language-switch a.active {
+  text-decoration: underline;
+}
+
+.product-category {
+  padding: 1rem 2rem;
+}
+
+.product-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  border-radius: 5px;
+  padding: 1rem;
+  flex: 1 1 250px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.order-button {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.order-button:hover {
+  background: #0056b3;
+}
+
+.offer {
+  color: green;
+  font-weight: bold;
+}
+
+.booking {
+  background: white;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.booking form input,
+.booking form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.send-options {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.send-options button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.send-options button:hover {
+  background: #218838;
+}
+
+.whatsapp-booking {
+  background: #25d366;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+}
+
+.social-share {
+  padding: 1rem 2rem;
+  background: #e9ecef;
+  text-align: center;
+}
+
+.social-share a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #007bff;
+}
+
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
