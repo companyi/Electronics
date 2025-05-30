@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M.Tech Electronics Company Ltd</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="M.Tech Logo" class="logo" />
+    <div class="lang-switcher">
+      <a href="?lang=en">🇬🇧 English</a> | <a href="?lang=sw">🇹🇿 Kiswahili</a>
+    </div>
+    <h1>M.Tech Electronics Company Ltd</h1>
+    <button class="view-products-btn" onclick="document.getElementById('products').scrollIntoView()">View Products</button>
+  </header>
+
+  <main>
+    <section id="products" class="product-section">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/hp_elitebook.jpg" alt="HP EliteBook 840 G5">
+          <h3>HP EliteBook 840 G5</h3>
+          <p>Price: TSh 830,000</p>
+          <a href="https://wa.me/255740179000?text=Naomba%20kuagiza%20HP%20EliteBook%20840%20G5" target="_blank" class="order-btn">Order via WhatsApp</a>
+        </div>
+        <div class="product-card">
+          <img src="images/galaxy_a14.jpg" alt="Samsung Galaxy A14">
+          <h3>Samsung Galaxy A14</h3>
+          <p>Price: TSh 480,000</p>
+          <a href="https://wa.me/255740179000?text=Naomba%20kuagiza%20Samsung%20Galaxy%20A14" target="_blank" class="order-btn">Order via WhatsApp</a>
+        </div>
+        <div class="product-card">
+          <img src="images/epson_printer.jpg" alt="Epson Printer">
+          <h3>Epson Printer</h3>
+          <p>Price: TSh 350,000</p>
+          <a href="https://wa.me/255740179000?text=Naomba%20kuagiza%20Epson%20Printer" target="_blank" class="order-btn">Order via WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="booking-section">
+      <h2>Book a Service</h2>
+      <form action="https://formsubmit.co/companymtechnology@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="details" placeholder="Service Details" required></textarea>
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <section class="reviews-section">
+      <h2>Customer Reviews</h2>
+      <p>⭐⭐⭐⭐⭐ Excellent service! - <strong>Angela Mwakalinga</strong></p>
+      <p>⭐⭐⭐⭐ Great products! - <strong>Joseph Baraka</strong></p>
+    </section>
+
+    <section class="work-section">
+      <h2>Our Work</h2>
+      <ul>
+        <li>supplied 38 laptop for <strong>Bright Future School</strong></li>
+        <li>Configured 10 computers for <strong>CityTech Solutions</strong></li>
+      </ul>
+    </section>
+
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <p>📞 0740 179 000</p>
+      <a href="https://wa.me/255740179000" target="_blank">Chat on WhatsApp</a>
+    </section>
+
+    <section class="offer-section">
+      <h2>🎁 Free Offer</h2>
+      <p>Free Windows/software installation with every purchase!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 M.Tech Electronics Company Ltd</p>
+  </footer>
+</body>
+</html>
