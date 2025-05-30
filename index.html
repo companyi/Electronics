@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.Tech Electronics Company Ltd</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    header img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .toggle-btn {
+      display: block;
+      margin: 2rem auto 1rem auto;
+      padding: 0.75rem 1.5rem;
+      background: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    #product-list {
+      display: none;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .product {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .product h3 {
+      margin: 0.5rem 0;
+      color: #003366;
+    }
+    .product p {
+      color: #333;
+      margin: 0.5rem 0;
+    }
+    .order {
+      background: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="M.Tech Logo">
+    <h1>M.Tech Electronics Company Ltd</h1>
+    <nav>
+      <a href="#">🇬🇧 English</a> | <a href="#">🇹🇿 Kiswahili</a>
+    </nav>
+  </header>  <main>
+    <button class="toggle-btn" onclick="document.getElementById('product-list').style.display = 'grid'; this.style.display = 'none';">
+      View All Products
+    </button><section id="product-list" class="products">
+  <div class="product">
+    <img src="images/samsung_tab.jpg" alt="Samsung Galaxy Tab A7 Lite">
+    <h3>Samsung Galaxy Tab A7 Lite</h3>
+    <p>Price: TSh 380,000</p>
+    <a class="order" href="https://wa.me/255740179000?text=Naomba kuagiza Samsung Galaxy Tab A7 Lite">Order via WhatsApp</a>
+  </div>
+  <!-- Additional products will follow the same format -->
+</section>
+
+<section style="text-align:center; padding:2rem;">
+  <h2>Contact Us</h2>
+  <p>Phone: 0740 179 000</p>
+  <p><a href="https://wa.me/255740179000">Chat on WhatsApp</a></p>
+</section>
+
+<section style="text-align:center; padding:2rem;">
+  <h2>Customer Reviews</h2>
+  <p>⭐⭐⭐⭐⭐ Excellent service! – Angela Mwakalinga</p>
+  <p>⭐⭐⭐⭐ Great products! – Joseph Baraka</p>
+</section>
+
+<section style="text-align:center; padding:2rem;">
+  <h2>Our Clients</h2>
+  <p>✅ Installed CCTV for Bright Future School</p>
+  <p>✅ Configured 10 computers for CityTech Solutions</p>
+</section>
+
+<section style="text-align:center; padding:2rem;">
+  <h2>Share This Website</h2>
+  <p>
+    <a href="https://wa.me/?text=Check%20out%20M.Tech%20Electronics">WhatsApp</a> |
+    <a href="#">Facebook</a> |
+    <a href="#">Instagram</a> |
+    <a href="#">Telegram</a>
+  </p>
+</section>
+
+  </main>  <footer>
+    <p>© 2025 M.Tech Electronics Company Ltd</p>
+  </footer>
+</body>
+</html>
