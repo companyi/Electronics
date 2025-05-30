@@ -1,0 +1,28 @@
+body { font-family: 'Poppins', sans-serif; margin: 0; background: #f7f9fc; color: #333; }
+
+header { background: #001f3f; color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+
+.logo { height: 50px; }
+
+nav a { color: white; text-decoration: none; margin: 0 0.8rem; font-weight: 600; }
+
+.lang-switch { margin-left: 1rem; }
+
+main { padding: 2rem; max-width: 1000px; margin: auto; }
+
+.products, .booking, .reviews, .work, .contact, .offer { margin-bottom: 3rem; }
+
+.product-card { background: white; border-radius: 12px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); padding: 1rem; text-align: center; }
+
+.product-card img { width: 100%; max-width: 300px; border-radius: 8px; margin-bottom: 1rem; }
+
+.btn { background: #0074D9; color: white; padding: 0.6rem 1.2rem; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; margin-top: 1rem; }
+
+form { display: flex; flex-direction: column; gap: 1rem; }
+
+form input, form textarea { padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; }
+
+form button { background: #28a745; color: white; border: none; padding: 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; }
+
+footer { text-align: center; background: #001f3f; color: white; padding: 1rem 0; margin-top: 2rem; }
+
